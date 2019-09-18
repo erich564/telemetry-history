@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link href="index.css" rel="stylesheet">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+
+    <header><h1>Telemetry Data - Past 15 Minutes</h1></header>
+
+    <div id="loading">Loading...</div>
+
+    <div id="content" class="hidden">
+
+        <input type="checkbox" id="pwr-v" checked="checked" value="pwr.v" />
+        <label for="pwr-v">pwr.v</label>
+        <br />
+        <input type="checkbox" id="pwr-c" checked="checked" value="pwr.c" />
+        <label for="pwr-c">pwr.c</label>
+
+        <br /><br />
+
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>
+                        <a href="#" id="timestamp-header">
+                            <div>
+                                Timestamp
+                            </div>
+                            <div class="sortable">
+                                <div class="arrow up"></div>
+                                <div class="arrow down active"></div>
+                            </div>
+                        </a>
+                    </th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
