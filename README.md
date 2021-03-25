@@ -1,5 +1,5 @@
 # telemetry-history
-This is a coding exercise for a prospective employer. Note that performance was optimized during development, since the code shall not be assessed that way (as per the instructions).
+This is a coding exercise for a prospective employer. Note that performance was not optimized during development, since the code shall not be assessed that way (as per the instructions).
 
 In order to run this solution, you'll need to read and perform some of the instructions in "Open MCT Coding exercise.pdf".
 
